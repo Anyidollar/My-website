@@ -40,3 +40,26 @@ export const TextWrapper = styled.div`
     padding-bottom: 65px;
   }
 `;
+
+export const TopLine = styled.div`
+color: ${({lightTopLine}) =>(lightTopLine ? "#a9b3c1" : "#4B59F7")};
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 1.4px;
+margin-bottom: 16px;
+`
+
+export const Heading = styled.h1`
+color: ${({lightText}) =>(lightText? "#f7f8fa" : "#1c2237")};
+font-size: 48px;
+line-height: 1.1;
+margin-bottom: 24px;
+`
+
+export const Subtitle = styled.p`
+color: ${({lightTextDesc}) =>(lightTextDesc? "#a9b3c1" : "#1c2237")};
+font-size: 18px;
+line-height: 24px;
+margin-bottom: 35px;
+max-width: 440px;
+`
