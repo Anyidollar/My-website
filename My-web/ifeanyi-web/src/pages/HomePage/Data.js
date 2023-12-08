@@ -11,4 +11,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   description:
     "We help Business Owners Increases Their Revenue. Our Team of Specialist Can Help You Achieve Your Goals.",
+    img: "",
+    alt: "Image",
+    start: ""
 };
