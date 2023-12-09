@@ -25,6 +25,7 @@ import {
   WebsiteRights,
   SocialIcon,
   SocialIconLink,
+  SocialIcons
 } from "./Footer.elements";
 
 const Footer = () => {
@@ -48,34 +49,30 @@ const Footer = () => {
             <FooterLink to="/">Testimonials</FooterLink>
             <FooterLink to="/">Carrers</FooterLink>
             <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
 
           <FooterLinksItems>
             <FooterLinkTitle>Contact us</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Carrers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLink to="/sign-up">Contact</FooterLink>
+            <FooterLink to="/">Support</FooterLink>
+            <FooterLink to="/">Destinations</FooterLink>
+            <FooterLink to="/">Sponsorship</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Carrers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLink to="/sign-up">Submit Videos</FooterLink>
+            <FooterLink to="/">Ambassadors</FooterLink>
+            <FooterLink to="/">Agency</FooterLink>
+            <FooterLink to="/">Influencer</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Carrers</FooterLink>
-            <FooterLink to="/">Investors</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLink to="/sign-up">Instagram</FooterLink>
+            <FooterLink to="/">Facebook</FooterLink>
+            <FooterLink to="/">Youtube</FooterLink>
+            <FooterLink to="/">Twitter</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -86,7 +83,7 @@ const Footer = () => {
             ULTRA
           </SocialLogo>
           <WebsiteRights>ULTRA © 2023</WebsiteRights>
-          <socialIcons>
+          <SocialIcons>
             <SocialIconLink href="/" target="_blank" arial-label="Facebook">
               <FaFacebook />
             </SocialIconLink>
@@ -109,7 +106,7 @@ const Footer = () => {
             <SocialIconLink href="/" target="_blank" arial-label="Linkedin">
               <FaLinkedin />
             </SocialIconLink>
-          </socialIcons>
+          </SocialIcons>
         </SocialMediaWrap>
       </SocialMedia>
     </FooterContainer>
