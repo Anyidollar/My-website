@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyle from "./globalStyles";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar } from "./components";
+import { Navbar, Footer } from "./components";
 import Home from "./pages/HomePage/Home";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
@@ -18,7 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         */}
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
